@@ -2,6 +2,8 @@ ul{       list-style-type: none;
                 margin-left: -5px;
                 overflow: hidden;
                 background-color: white;
+                font-family: monospace;
+                margin-top:    10px;
            
         }
         li 
@@ -20,9 +22,22 @@ ul{       list-style-type: none;
             text-decoration: none;
         }
 body{
-    background: url("background.jpg");
+    background-image: url(background.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+}
+.bg-image {
+   
+   /* filter: blur(2px);
+    -webkit-filter: blur(2px);*/
+    height: 100%; 
+   
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 input{
@@ -32,4 +47,47 @@ input{
 }
 .nav{
     background-attachment: fixed;
+}
+
+#det{
+   margin-left: 200px;
+
+}
+.bg-image {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div1{
+    background-color: rgba(248, 147, 11, 0.37);
+    margin-left: 900px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 50px;
+}
+#div2{
+    background-color:rgba(163, 229, 221, 0.74); 
+    border-radius: 5px; 
+    width:330px;
+    height: 450px;
+    margin-top:-303px;
+    left: 40px;
+    position: relative;
+    text-align: center;
+}
+#div3{
+    background-color: rgba(147, 191, 183, 0.56);
+    margin-left: 520px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 50px;
+
+}
+#div4{
+    background-color:rgba(163, 229, 221, 0.74)  ;
+    border-radius: 20px;
+    margin-left: 520px;
+    width: 270px;
 }
