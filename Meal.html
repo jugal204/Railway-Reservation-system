@@ -1,0 +1,82 @@
+<!doctype HTML>
+<HTML>
+<head><link rel="stylesheet" href="styles.css"><title>Meals</title>
+    <style>
+        body{
+            background-image: url(MEals1.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+}
+        
+        }
+
+    
+    </style>
+    </head>
+   <body>
+        <div class="bg-image"></div>
+        <div style="position: relative;top: -100%;">
+       <ul>
+        <li><img src="logo.png" height="40px" width="40px" style="align-self: center;padding: 5px"></li>
+            <li><a href="BookTicket1.html"; target="_blank">Home</a></li>
+            <li><a href="BookTicket.html" target="_self">Book a ticket</a></li>
+        <li><a href="Meal.html">Order Meal</a> </li>
+            <li><a href="https://www.railyatri.in/trains-between-stations" target="_blank">Find trains</a></li>
+        <li><a href="TouristPacks.html" target="_blank">Tourist Packs</a></li>
+            <li><a href="AboutUs.html" target="_blank">About us</a></li>
+        
+</ul><br>   
+       
+       
+       <h1 style="margin-left: 5px; margin-top: -25px; padding-top: 20px;color:black;color: white;margin-left: 950px">Book Your Meal!!!</h1>
+    <div  id="div1">
+        <form style="font-size: 20px;color: white;">
+            Train Name:<br><input type="text" placeholder="Enter your Train Name" required><br>
+            PNR number:<br><input type="text" placeholder="Enter your PNR number" required><br>
+            Coach Type:<br>
+            <select>
+                        <option>Sleeper Class</option>
+                        <option>Chair Car</option>
+                        <option>Third Class AC</option>
+                        <option>Second Class AC</option>
+                        <option>AC First Class</option>
+                
+            </select>
+            Coach Number:<br><input type="text" placeholder="Enter your Coach number" required><br>
+            Seat Number:<br><input type="number" placeholder="Seat Number" required><br>
+            Phone Number<br><input type="text" placeholder="Enter your Phone number" required><br>
+        Boarding Date<br><input type="date" required><br>
+            Desired Serving Station<br><input type="text" placeholder="Enter your desired Serving Station" required><br>
+            <p style="background: rgba(255, 255, 0, 0.46);color: darkblue;font-size: 12px;">
+                *In case of any run time delays meal will be served at appropriate time or at nearest station</p>
+            Time<br>
+            <select>
+                        <option>10:00</option>            
+                        <option>12:00</option>
+                        <option>14:00</option>
+                        <option>16:45</option>
+                        <option>18:30</option>
+                        <option>20:00</option>
+                        <option>23:00</option>
+        
+            </select><br>
+            Meal Type<br>
+            <select>
+                        <option>Vegetarian (without egg)</option>
+                        <option>Non-Vegetarian</option>
+                        <option>Vegetarian (with Egg)</option>
+            </select><br>
+        <input type="submit" onclick="myFunction()">
+        
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+    </form>
+        </div>
+       </div>
+    </body>
+</HTML>
