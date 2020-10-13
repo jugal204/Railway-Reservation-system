@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <title>Book a ticket</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    .bg-image {
+  background-image: url("");
+  height: 100%; 
+width:  100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>       
+    <body style="height: 800px;">
+        <ul style="font-family: monospace; margin-top: 10px">
+        <li><img src="logo.png" height="40px" width="40px" style="align-self: center;padding: 5px"></li>
+            <li><a href="BookTicket1.html"; target="_blank">Home</a></li>
+            <li><a href="BookTicket.html" target="_self">Book a ticket</a></li>
+        <li><a href="Meal.html">Order Meal</a> </li>
+            <li><a href="https://www.railyatri.in/trains-between-stations" target="_blank">Find trains</a></li>
+        <li><a href="TouristPacks.html" target="_blank">Tourist Packs</a></li>
+            <li><a href="AboutUs.html" target="_blank">About us</a></li>
+        
+</ul>   
+    <h1 style="margin-left: 5px; margin-top: 40px; padding-top: 20px;color:black;">Fill the following for booking your ticket</h1>
+    <div id="div5">
+        <form style="font-size: 20px;">
+            First Name:<br><input type="text" placeholder="Enter your first name" required><br>
+            Middle Name:<br><input type="text" placeholder="Enter your middle name" required><br>
+            Last Name:<br><input type="text" placeholder="Entr tyour last name" required><br>
+            Number of Members<br>
+            <select>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>1</option>
+            </select><br>
+            E-mail:<br><input type="email" placeholder="Enter your e-mail" required><br>
+            Phone Number<br><input type="text" placeholder="Enter your Phone number" required><br>
+            Boarding Date<br><input type="date" required><br>            
+            Choose your pack<br>
+            <select>
+                        <option>Delhi</option>            
+                        <option>Bhangarh</option>
+                        <option>Mussorie</option>
+                        <option>Nainital</option>
+                        <option>Agra</option>
+            </select><br>
+        <input type="submit" onclick="myFunction()">
+        
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+    </form>
+        </div>
+        
+        </body>
+    
+</html> 
