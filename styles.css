@@ -39,7 +39,11 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 input{
 
     border-radius: 25px;
@@ -90,4 +94,13 @@ input{
     border-radius: 20px;
     margin-left: 520px;
     width: 270px;
+}
+
+#div5{
+    background-color: antiquewhite;
+    margin-left: 520px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
 }
