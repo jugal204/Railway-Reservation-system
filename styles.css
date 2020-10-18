@@ -23,17 +23,17 @@ ul{       list-style-type: none;
         }
 body{
     background-image: url(background.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100%;
-            width: 100%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 .bg-image {
    
    /* filter: blur(2px);
     -webkit-filter: blur(2px);*/
     height: 100%; 
-   
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -104,3 +104,58 @@ input{
     padding: 50px;
     text-align: center;
 }
+
+.wrapper{
+    background-color: rgba(199, 199, 199, 0.51);
+    font-family: cursive;
+    width: 1400px;
+    height: 380px;
+    border-radius: 10px;
+}
+nav{
+	background-color: skyblue;
+	margin-top: -15px;
+	
+	color: #fff;
+    opacity: 0.8;
+}
+.wrapper h2{
+
+    font-size: 30px;
+    color: slateblue;
+    font-family: cursive;
+    padding:5px;
+    }
+
+    .wrapper a{
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 15px;
+    }
+    
+    .wrapper p{
+    
+        font-size: 25px;
+        font-family: cursive;
+        color: slateblue;
+    }
+    .wrapper h3{
+    
+        font-size: 25px;
+        font-family: cursive;
+        color:firebrick;
+    }
+    #train {
+        position: relative;
+        cursor: pointer;
+      }
+      .blinking{
+          animation:blinkingText 1.2s infinite;
+      }
+      @keyframes blinkingText{
+        0%{     color: #000;    }
+        49%{    color: #000; }
+        60%{    color: transparent; }
+        99%{    color:transparent;  }
+        100%{   color: #000;    }
+    } 
