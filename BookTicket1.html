@@ -51,21 +51,27 @@ function myFunction() {
   alert("Successfully Submitted!");
 }
 </script>
-       </form>
-           </div>
-        
-	<div style="background-color:rgba(109, 199, 203, 0.74);margin-left:-160px;position: relative;border-radius: 5px;padding:30px;width:350px;height:200px;left:200px;top:43px;text-align: center;">
-	<a href="TouristPacks.html"style="text-decoration:none;color:white;font-family:Microsoft Sans Serif;font-size:20px;">Tourist packages
-	<img style="position:relative;height:200px;width:340px;right:20px;" src="AGRA.jpg">
-        </a></div>
-	<div style="border-radius: 5px;background-color:rgba(109, 199, 203, 0.74);position:relative;padding:30px;text-align: center;width:350px;height:200px;left:505px;top:-217px;">
-	<a href="TouristBooking.html"style="text-decoration:none;color:white;font-family:Microsoft Sans Serif;font-size:20px;">National packages
-	<img style="position:relative;height:200px;width:340px;right:20px;" src="Delhi.jpg">
-        </a></div>
-	<div style="text-align: center;background-color:rgba(109, 199, 203, 0.74);border-radius:5px;position:relative;padding:30px;width:360px;height:200px;left:975px;top: -477px;">
-	<a href="https://www.yatra.com/international-tour-packages"style="text-decoration:none;color:white;font-family:Microsoft Sans Serif;font-size:20px;">International packages
-	<img style="position:relative;height:200px;width:340px;right:20px;" src="international.jpg">
-        </a></div>
+<br>
+<br>
+<br>
+    <img id="train" src="https://js.cx/clipart/train.gif">
+
+
+    <script>
+      train.onclick = function() {
+        let start = Date.now();
+  
+        let timer = setInterval(function() {
+          let timePassed = Date.now() - start;
+  
+          train.style.left = timePassed / 5 + 'px';
+  
+          if (timePassed > 5000) clearInterval(timer);
+  
+        }, 20);
+      }
+    </script>
+  
             </body>
     
 </html> 
